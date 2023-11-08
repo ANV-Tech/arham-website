@@ -10,13 +10,17 @@ function HeroBanner() {
     const sliderOptions = {
         items: 1,
         loop: true,
+
         autoplay: true
+
     }
     return (
         <>
 
             <OwlCarousel
                 className="owl-theme "
+
+
                 {...sliderOptions}
             >
                 <div className='slider-block'>
@@ -46,12 +50,12 @@ function HeroBanner() {
                     <img className="Img" src={img} />
                     <div className="text-overlay " data-aos="zoom-in" data-aos-duration="3000">
                         <h1>Achive Your Goals With Us.</h1>
+
                         <div className='learnBtn'>
                             <button className='btn btn-sm Btn'>Learn More</button>
                         </div>
                     </div>
                 </div>
-
 
 
 

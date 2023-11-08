@@ -17,7 +17,9 @@ function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
+
       if (window.scrollY > 150) {
+
         setIsSticky(true);
       } else {
         setIsSticky(false);
@@ -33,7 +35,9 @@ function Header() {
   return (
     <>
       <div>
+
         <div className={`header__bottom ${isSticky ? "sticky-header" : ""}`}>
+
           <div className="container">
             <div className="header__bottom__inner">
               {/* Main Navigation */}
@@ -88,7 +92,10 @@ function Header() {
                         <Link to="about-us.html">Stock Broker</Link>
                       </li>
                       <li>
-                        <Link to="about-us.html">Stock Broker- Commodity</Link>
+                        <Link to="about-us.html">
+                          Stock Broker- Commodity
+                        </Link>
+
                       </li>
                       <li>
                         <Link to="about-us.html">Depository</Link>
@@ -99,7 +106,9 @@ function Header() {
                     </ul>
                   </li>
                   <li className="header__logo">
+
                     <Link to="/">
+
                       <img
                         src="assets/image/Arham_Logo_New.png"
                         alt="header logo"
@@ -126,7 +135,9 @@ function Header() {
                     </ul>
                   </li>
                   <li>
-                    <a to="contact.html">CONTACT</a>
+
+                   <Link to="/contact">Contact</Link>
+
                   </li>
                   <li>
                     <button className="header-btn">

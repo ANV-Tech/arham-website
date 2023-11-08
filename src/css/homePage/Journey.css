@@ -1,3 +1,4 @@
+
 .about-us {
     padding: 180px 0 50px;
     background: #fff;
@@ -216,4 +217,5 @@
 .about-us .roadmap-right .roadmap-item-wrapper:last-child .roadmap-item:after,
 .about-us .roadmap-right .roadmap-item-wrapper:last-child .roadmap-item:before {
     background: #e5e5e5
+
 }

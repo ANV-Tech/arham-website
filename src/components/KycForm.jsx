@@ -1,11 +1,13 @@
 import React from "react";
 import "../css/homePage/Kyc.css";
+
 import ReCAPTCHA from "react-google-recaptcha";
 
 function KycForm() {
   function onChange(value) {
     console.log("Captcha value:", value);
   }
+
   return (
     <>
       <div className="kyc-outer">
@@ -14,7 +16,9 @@ function KycForm() {
             <img src="assets/image/kyc/kyc-1.webp" alt="kyc" />
             <div className="kyc-content">
               <div className="title">
+
                 Partner With <span> US</span>
+
               </div>
               <p>
                 Perspiciatis unde omnis iste natus error sit voluptatem
@@ -70,6 +74,7 @@ function KycForm() {
                     <i class="fa-solid fa-location-dot"></i>
                   </div>
                 </div>
+
                 <div className="form-item">
                   {/* <ReCAPTCHA
                     sitekey="Your client site key"
@@ -85,6 +90,7 @@ function KycForm() {
                   call:
                   <a href="">261-6794000</a>
                 </p>
+
               </div>
             </form>
           </div>

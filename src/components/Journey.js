@@ -6,7 +6,6 @@ import "owl.carousel/dist/assets/owl.theme.default.css"; // Add this for styles
 import '../css/homePage/Journey.css'
 
 function Journey() {
-
     return (
         <>
             <section class="about-us">
@@ -129,6 +128,7 @@ function Journey() {
                     </div>
                 </div>
             </section >
+
 
         </>
     );

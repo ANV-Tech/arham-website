@@ -5,6 +5,7 @@
 
 .owl-carousel button.owl-dot {
     color: white !important;
+
 }
 
 .owl-carousel {
@@ -13,4 +14,5 @@
     -webkit-tap-highlight-color: transparent;
     position: relative;
     z-index: -1;
+
 }

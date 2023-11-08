@@ -5,9 +5,11 @@ import Header from './common components/Header';
 import Footer from './common components/Footer';
 import HomePage from './page/HomePage';
 import AboutUs from './page/AboutUs';
-import Contact from './page/Contact';
+
 import { AnimatePresence } from "framer-motion";
 import Loader from './common components/Loader';
+import Contact from '../src/page/Contact';
+
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -22,20 +24,26 @@ function App() {
       <Loader />
     ) : (
       <BrowserRouter>
+
         <div className='header position-relative'>
+
           <Header />
           <AnimatePresence mode='wait'>
             <Routes>
               <Route index element={<HomePage />} />
               <Route path='/about' element={<AboutUs />} />
-              <Route path='/contact' element={<Contact />} />
+
+              <Route path='/Contact' element={<Contact />} />
+
 
 
               {/* Add more routes as needed */}
             </Routes>
           </AnimatePresence>
           <Footer />
+
         </div>
+
       </BrowserRouter>
     )}
     </>

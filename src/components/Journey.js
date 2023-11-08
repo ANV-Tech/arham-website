@@ -6,91 +6,130 @@ import "owl.carousel/dist/assets/owl.theme.default.css"; // Add this for styles
 import '../css/homePage/Journey.css'
 
 function Journey() {
-    const options = {
-        items: 5, 
-        loop: true, 
-        nav: true,
-        dots: true, 
-        autoplay: true, 
-        autoplayTimeout: 5000,
-    };
     return (
         <>
+            <section class="about-us">
+                <div class="container">
+                    <div class="section-title">
+                        <h1>Out Journy</h1>
 
-            <section
-                id="our-life-sotry"
-                className="ts-block ts-separate-bg-element ts-background-repeat"
-                data-bg-image-opacity=".1"
-                data-bg-image="assets/img/bg-pattern-dot.png"
-            >
-                <div className="text-center ts-title">
-                    <h2>Our Life Story</h2>
-                </div>
-                <div className="ts-time-line__horizontal">
-                    <OwlCarousel className="owl-theme" {...options}>
-                        <div className="item" style={{ width: 'fit-content' }}>
-                            <li className="ts-time-line__item ts-time-line__milestone" >
-                                <div className="ts-box" >
-                                    <h5>Company Founded</h5>
+                        <div class="roadmap-desktop">
+                            <div class="row">
+                                <div class="col-sm-6 roadmap-left" >
+                                    <div class="roadmap-item-wrapper">
+                                        <div class="roadmap-item"
+                                        >
+                                            <span class="item-date">June 2013</span>
+                                            <h3>COMPANY FOUNDED</h3>
+                                            <p>Arham Share Pvt Ltd. was established in 2010 in Surat, Gujarat, with a vision to provide exceptional financial services to investors.</p>
+                                        </div>
+                                    </div>
+                                    <div class="roadmap-item-wrapper"
+                                    >
+                                        <div class="roadmap-item">
+                                            <span class="item-date"> 2012</span>
+                                            <h3>SERIES A FUNDING</h3>
+                                            <p>Arham Share became recognized partners with both NSE and BSE, solidifying their position as a trusted stock broking firm and expanding their investment offerings.</p>
+                                        </div>
+                                    </div>
+                                    <div class="roadmap-item-wrapper roadmap-end"
+
+                                    >
+                                        <div class="roadmap-item">
+                                            <span class="item-date"> 2013</span>
+                                            <h3>OFFICE MOVING</h3>
+                                            <p>Arham Share registered with MCX, expanding their services into the commodities market and offering clients diversified investment options.</p>
+                                        </div>
+                                    </div>
+
                                 </div>
-                                <figure>
-                                    <small>Sep</small>
-                                    <h6>2016</h6>
-                                </figure>
-                            </li>
-                        </div>
+                                <div class="col-sm-6 roadmap-right">
+                                    <div class="roadmap-item-wrapper"
 
-                        <div className="item">
-                            <li className="ts-time-line__item">
-                                <div className="ts-box">
-                                    <h5>Solution for slow money transfers</h5>
-                                    <p>
-                                        Phasellus in iaculis ante. Fusce odio justo, pulvinar
-                                        sit amet nisl sed, lacinia laoreet augue. Integer eu
-                                        ultrices lacus, at laoreet
-                                    </p>
-                                    <a href="#" className="btn btn-dark btn-sm">
-                                        Read More
-                                    </a>
+                                    >
+                                        <div class="roadmap-item">
+                                            <span class="item-date"> 2022</span>
+                                            <h3>SEED FUNDING</h3>
+                                            <p>Arham Share launched 'TradeCircle', a popular discount broking firm, providing seamless and affordable trading experiences. It quickly gained recognition as a trusted platform for investors seeking cost-effective solutions without compromising on service quality.</p>
+                                        </div>
+                                    </div>
+                                    <div class="roadmap-item-wrapper"
+
+                                    >
+                                        <div class="roadmap-item">
+                                            <span class="item-date"> 2022</span>
+                                            <h3>SERIES B FUNDING</h3>
+                                            <p>Arham Share achieved a remarkable milestone by surpassing 300 active partners nationwide. This expanded network strengthened their reach and enabled them to serve a larger client base, making their services accessible to investors across India.</p>
+                                        </div>
+                                    </div>
+                                    <div class="roadmap-item-wrapper roadmap-end"
+
+                                    >
+                                        <div class="roadmap-item">
+                                            <span class="item-date">2023 </span>
+                                            <h3>SERIES C FUNDING</h3>
+                                            <p>Arham Share has experienced exponential growth, with a dedicated team of over 250 professionals providing personalized assistance, expert advice, and exceptional customer service. Their commitment ensures clients' investment journeys are smooth and successful.</p>
+                                        </div>
+                                    </div>
                                 </div>
-                                <figure>
-                                    <small>Mar</small>
-                                    <h6>2017</h6>
-                                </figure>
-                            </li>
+                            </div>
                         </div>
-
-                        <div className="item">
-                            <li className="ts-time-line__item">
-                                <div className="ts-box">
-                                    <h5>Solution for slow money transfers</h5>
-                                    <p>
-                                        Phasellus in iaculis ante. Fusce odio justo, pulvinar
-                                        sit amet nisl sed, lacinia laoreet augue. Integer eu
-                                        ultrices lacus, at laoreetPhasellus in iaculis ante. Fusce odio justo, pulvinar
-                                        sit amet nisl sed, lacinia laoreet augue. Integer eu
-                                        ultrices lacus, at laoreetPhasellus in iaculis ante. Fusce odio justo, pulvinar
-                                        sit amet nisl sed, lacinia laoreet augue. Integer eu
-                                        ultrices lacus, at laoreet
-                                    </p>
-                                    <a href="#" className="btn btn-dark btn-sm">
-                                        Read More
-                                    </a>
+                        <div class="roadmap-mobile">
+                            <div class="roadmap-item-wrapper">
+                                <div class="roadmap-item">
+                                    <span class="item-date">June 2013</span>
+                                    <h3>COMPANY FOUNDED</h3>
+                                    <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                                 </div>
-                                <figure>
-                                    <small>Mar</small>
-                                    <h6>2017</h6>
-                                </figure>
-                            </li>
+                            </div>
+                            <div class="roadmap-item-wrapper">
+                                <div class="roadmap-item">
+                                    <span class="item-date">Dec 2013</span>
+                                    <h3>SEED FUNDING</h3>
+                                    <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                                </div>
+                            </div>
+                            <div class="roadmap-item-wrapper">
+                                <div class="roadmap-item">
+                                    <span class="item-date">Feb 2014</span>
+                                    <h3>SERIES A FUNDING</h3>
+                                    <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                                </div>
+                            </div>
+                            <div class="roadmap-item-wrapper">
+                                <div class="roadmap-item">
+                                    <span class="item-date">Dec 2016</span>
+                                    <h3>SERIES B FUNDING</h3>
+                                    <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                                </div>
+                            </div>
+                            <div class="roadmap-item-wrapper  roadmap-end">
+                                <div class="roadmap-item">
+                                    <span class="item-date">Mar 2017</span>
+                                    <h3>OFFICE MOVING</h3>
+                                    <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                                </div>
+                            </div>
+                            <div class="roadmap-item-wrapper roadmap-end">
+                                <div class="roadmap-item">
+                                    <span class="item-date">May 2018</span>
+                                    <h3>SERIES C FUNDING</h3>
+                                    <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                                </div>
+                            </div>
+                            <div class="roadmap-item-wrapper">
+                                <div class="roadmap-item">
+                                    <span class="item-date">Nov 2020</span>
+                                    <h3>GO PUBLIC!</h3>
+                                    <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                                </div>
+                            </div>
                         </div>
-
-                        {/* Add more timeline items here as separate <div> elements */}
-                    </OwlCarousel>
-                </div>
-                <div className="ts-background">
-                    <div className="ts-background-image"></div>
+                    </div>
                 </div>
             </section >
+
+
         </>
     );
 }

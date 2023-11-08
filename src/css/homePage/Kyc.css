@@ -103,4 +103,17 @@
     color: #262626;
     font-weight: 400;
     line-height: 22px;
+
+}
+
+.kyc-outer .kyc-item .bg-block .form-outer p {
+    margin-left: 28px;
+    margin-top: 10px;
+}
+
+.kyc-outer .kyc-item .bg-block .form-outer p a {
+    color: #262626;
+    text-decoration: none;
+    padding-left: 5px;
+
 }

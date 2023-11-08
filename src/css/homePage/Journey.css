@@ -1,140 +1,221 @@
-.ts-time-line__horizontal {
-    padding-bottom: .625rem;
-    padding-top: .625rem;
-    position: relative;
-    /* timeline line */
-    width: auto;
+
+.about-us {
+    padding: 180px 0 50px;
+    background: #fff;
 }
 
-.ts-time-line__horizontal .owl-item{
-    width: auto !important;
+.about-us .section-header {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 70px;
 }
 
-.ts-time-line__horizontal ul {
-    padding-left: 1.875rem;
-    list-style: none;
-    position: relative;
+.about-us .section-header h1 {
+    color: #252525;
+    font-size: 42px;
+    line-height: 42px;
+    margin: 0 0 30px;
 }
 
-.ts-time-line__horizontal:after {
-    background-color: #474747;
-    content: "";
-    bottom: 6.875rem;
-    height: .1875rem;
-    left: 0;
-    position: absolute;
-    width: 100%;
+.about-us .section-header p {
+    color: #252525;
+    font-size: 18px;
+    line-height: 30px;
+    display: inline-block;
+    margin: 0 0 20px;
 }
 
-.ts-time-line__horizontal .ts-time-line__item {
-    flex: 0 0 auto;
-    margin-right: 1.875rem;
-    position: relative;
-    width: 18.75rem;
-    list-style: none;
+.about-us .section-content {
+    width: 80%;
+    margin: 0 auto
 }
 
-.ts-time-line__horizontal .ts-time-line__item .ts-box {
-    position: relative;
-    /* dot */
+.about-us .section-content h2 {
+    color: #252525;
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0 0 70px;
+    text-align: center
 }
 
-.ts-time-line__horizontal .ts-time-line__item .ts-box:before {
-    background-color: #474747;
-    bottom: -2.375rem;
-    border-radius: 100%;
-    content: "";
-    left: 1.6875rem;
-    height: .75rem;
-    position: absolute;
-    width: .75rem;
+.about-us .roadmap-mobile {
+    display: none
 }
 
-.ts-time-line__horizontal .ts-time-line__item .ts-box {
-    /*triangle*/
+.about-us .roadmap-item .item-date {
+    font-size: 15px;
+    color: #252525;
+    padding: 10px 15px;
+    border: 1px solid #82df76;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 0 0 20px
 }
 
-.ts-time-line__horizontal .ts-time-line__item .ts-box:after {
-    border-color: #fff transparent transparent transparent;
-    border-style: solid;
-    border-width: .5rem .5rem 0 .5rem;
-    bottom: -0.4375rem;
-    content: "";
-    left: 1.5625rem;
-    height: 0;
-    position: absolute;
-    width: 0;
-}
-
-.ts-time-line__horizontal .ts-time-line__item.ts-time-line__milestone {
-    width: 4.375rem;
-}
-
-.ts-time-line__horizontal .ts-time-line__item.ts-time-line__milestone .ts-box {
-    background-color: #3a79f9;
-    color: #fff;
-}
-
-.ts-time-line__horizontal .ts-time-line__item.ts-time-line__milestone .ts-box:after {
-    border-color: #3a79f9 transparent transparent transparent;
-}
-
-.ts-time-line__horizontal .ts-time-line__item.ts-time-line__milestone h5 {
-    writing-mode: vertical-lr;
-    margin: 0;
-}
-
-.ts-time-line__horizontal .ts-time-line__item figure {
-    margin-left: 1.875rem;
-    margin-top: 4.6875rem;
-}
-
-.ts-time-line__horizontal .ts-time-line__item figure small {
+.about-us .roadmap-item h3 {
+    font-size: 26px;
+    line-height: 26px;
+    color: #252525;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0 0 15px;
+    font-weight: 700;
     text-transform: uppercase;
-    opacity: .4;
 }
 
-.ts-time-line__horizontal .ts-time-line__item figure small,
-.ts-time-line__horizontal .ts-time-line__item figure h6 {
-    font-weight: 600;
+.about-us .roadmap-item p {
+    font-size: 15px;
+    line-height: 22px;
+    color: #6b6b6b;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    hyphens: none
 }
 
-.ts-time-line__horizontal .owl-stage-outer {
-    padding: 1rem 1rem 0 1rem;
+.about-us .roadmap-left {
+    padding: 0 50px 0 15px
 }
 
-.ts-time-line__horizontal .owl-stage {
-    align-items: flex-end;
-    display: flex;
+.about-us .roadmap-right {
+    padding: 0 15px 0 50px
 }
 
-.ts-time-line__horizontal .ts-sly-frame.ts-loaded>ul {
-    align-items: flex-end;
-    display: flex;
-}
 
-.ts-time-line__horizontal .ts-time-line__item.ts-time-line__milestone {
-    width: 4.375rem;
-}
-
-.ts-time-line__horizontal .ts-time-line__item {
-    flex: 0 0 auto;
-    margin-right: 1.875rem;
+.about-us .roadmap-right .roadmap-item-wrapper,
+.about-us .roadmap-left .roadmap-item-wrapper {
+    padding: 0 0 70px;
     position: relative;
-    width: 18.75rem;
+
 }
 
-.ts-box {
-    background-color: #fff;
-    border-radius: 0.25rem;
-    margin-bottom: 1.875rem;
-    box-shadow: 0.125rem 0.1875rem 0.9375rem rgba(0, 0, 0, .15);
-    padding: 1.5625rem;
+.about-us .roadmap-right .roadmap-item-wrapper:last-child,
+.about-us .roadmap-left .roadmap-item-wrapper:last-child {
+    padding: 0;
 }
 
-.ts-time-line__horizontal .ts-time-line__item {
-    flex: 0 0 auto;
-    margin-right: 1.875rem;
+.about-us .roadmap-left .roadmap-item-wrapper:before {
+    display: block;
+    content: "";
+    width: 6px;
+    background: #82df76;
+    position: absolute;
+    right: -53px;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.about-us .roadmap-right .roadmap-item-wrapper:before {
+    display: block;
+    content: "";
+    width: 6px;
+    background: #82df76;
+    position: absolute;
+    left: -53px;
+    top: 0;
+    bottom: 0;
+    z-index: 2;
+}
+
+.about-us .roadmap-left .roadmap-item-wrapper.roadmap-end:before,
+.about-us .roadmap-right .roadmap-item-wrapper.roadmap-end:before {
+    background: #e5e5e5;
+    z-index: 3;
+}
+
+
+.about-us .roadmap-left .roadmap-item-wrapper:last-child::before,
+.about-us .roadmap-right .roadmap-item-wrapper:last-child::before {
+    display: none
+}
+
+.about-us .roadmap-left .roadmap-item {
+    padding: 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    text-align: right;
     position: relative;
-    width: 18.75rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.about-us .roadmap-left .roadmap-item:before {
+    content: "";
+    display: block;
+    background: #82df76;
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    top: -1px;
+    right: -46px;
+    z-index: 99999
+}
+
+.about-us .roadmap-left .roadmap-item:after {
+    content: "";
+    display: block;
+    background: #82df76;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    position: absolute;
+    top: -10px;
+    right: -61px;
+    z-index: 99999
+}
+
+.about-us .roadmap-right .roadmap-item {
+    padding: 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: left;
+    position: relative
+}
+
+.about-us .roadmap-mobile .roadmap-item {
+    padding: 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+
+
+.about-us .roadmap-right .roadmap-item:before {
+    content: "";
+    display: block;
+    background: #82df76;
+    width: 30px;
+    height: 3px;
+    position: absolute;
+    top: -1px;
+    left: -46px;
+    z-index: 999;
+}
+
+.about-us .roadmap-right .roadmap-item:after {
+    content: "";
+    display: block;
+    background: #82df76;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    position: absolute;
+    top: -10px;
+    left: -61px;
+    z-index: 999;
+}
+
+.about-us .roadmap-right .roadmap-item-wrapper:first-child {
+    margin: 150px 0 0;
+}
+
+.about-us .roadmap-left .roadmap-item-wrapper:last-child .roadmap-item:after,
+.about-us .roadmap-left .roadmap-item-wrapper:last-child .roadmap-item:before,
+.about-us .roadmap-right .roadmap-item-wrapper:last-child .roadmap-item:after,
+.about-us .roadmap-right .roadmap-item-wrapper:last-child .roadmap-item:before {
+    background: #e5e5e5
+
 }

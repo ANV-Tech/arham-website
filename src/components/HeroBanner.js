@@ -10,7 +10,8 @@ function HeroBanner() {
     const sliderOptions = {
         items: 1,
         loop: true,
-        autoplay: true,
+
+        autoplay: true
 
     }
     return (
@@ -18,40 +19,44 @@ function HeroBanner() {
 
             <OwlCarousel
                 className="owl-theme "
-                loop
-                nav
+
+
                 {...sliderOptions}
             >
-                <div className=''>
+                <div className='slider-block'>
                     <img className="Img" src={img} />
-                    <div className="text-overlay">
-                        <h1>Financial Freedom</h1>
-                        <p>Empowering Your Financial Success through Personalised</p>
+                    <div className="text-overlay " data-aos="zoom-in" data-aos-duration="3000">
+                        <h1>Unlock Your <br />Welth
+                            Potencial!</h1>
+                        <p></p>
+                        <div className='learnBtn'>
+                            <button className='btn btn-sm Btn'>Know More</button>
+                        </div>
+                    </div>
+                </div>
+                <div className='slider-block'>
+                    <img className="Img" src={img} />
+                    <div className="text-overlay " data-aos="zoom-in" data-aos-duration="3000">
+                        <h1>Achive Financial
+                            <br /> Freedom
+                            With Us.</h1>
+                        <p></p>
+                        <div className='learnBtn'>
+                            <button className='btn btn-sm Btn'>Know More</button>
+                        </div>
+                    </div>
+                </div>
+                <div className='slider-block'>
+                    <img className="Img" src={img} />
+                    <div className="text-overlay " data-aos="zoom-in" data-aos-duration="3000">
+                        <h1>Achive Your Goals With Us.</h1>
+
                         <div className='learnBtn'>
                             <button className='btn btn-sm Btn'>Learn More</button>
                         </div>
                     </div>
                 </div>
-                <div className=''>
-                    <img className="Img" src={img} />
-                    <div className="text-overlay">
-                        <h1>Financial Freedom</h1>
-                        <p>Empowering Your Financial Success through Personalised</p>
-                        <div className='learnBtn'>
-                            <button className='btn btn-sm Btn'>Learn More</button>
-                        </div>
-                    </div>
-                </div>
-                <div className=''>
-                    <img className="Img" src={img} />
-                    <div className="text-overlay">
-                        <h1>Financial Freedom</h1>
-                        <p>Empowering Your Financial Success through Personalised</p>
-                        <div className='learnBtn'>
-                            <button className='btn btn-sm Btn'>Learn More</button>
-                        </div>
-                    </div>
-                </div>
+
 
 
             </OwlCarousel>

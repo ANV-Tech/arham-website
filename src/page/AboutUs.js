@@ -1,4 +1,6 @@
+
 import React, { useEffect } from "react";
+
 import { BsCashCoin } from "react-icons/bs";
 import { GiReceiveMoney } from "react-icons/gi";
 import { SiAmazonapigateway } from "react-icons/si";
@@ -7,6 +9,7 @@ import { SiPowerbi } from "react-icons/si";
 import { FaStairs } from "react-icons/fa6";
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 import "../css/homePage/About.css";
+
 import vt1 from "../assets/Vactors/work-progress-concept-illustration/5097611.jpg";
 import img1 from "../assets/Images/handsome-bearded-businessman-rubbing-hands-having-deal.jpg";
 import img2 from "../assets/Images/young-bearded-man-with-striped-shirt.jpg";
@@ -45,6 +48,7 @@ function AboutUs() {
           <h2 className="about_txt2  ">Core Activities</h2>
           <h3 className="line"></h3>
           <h5 className="  txt_min pt-3">
+
             Arham Group is Founded in 2010 to become India’s best Equity Broking
             House and the Largest Distribution Network
           </h5>
@@ -63,7 +67,9 @@ function AboutUs() {
       </div>
 
       {/* ----------------------------mission vision----------------------------------- */}
+
       <div className="row w-75 text-center  mx-auto  mission_vision ">
+
         {/* <h2 className="">Providing you A World of Financial Planning & Company Accounting Services</h2> */}
 
         <div className="col-12 col-md-6 pt-5">
@@ -75,12 +81,16 @@ function AboutUs() {
             <img
               className=" image2 "
               src="https://finacia.radiantthemes.com/wp-content/uploads/2018/09/about-us-version-one-expert-three.png"
+
               alt=""/>
+
             <div className="pic_hover"></div>
           </div>
 
           <div className="  mx-auto mt-5">
+
             <h5 className="txt_min">One-to-One Service</h5>
+
             <p className="about_pera">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac
               commodo libero finibus eleifend nibh.
@@ -90,20 +100,26 @@ function AboutUs() {
 
         <div className="col-12 col-md-6 pt-5">
           <div className="mb-5">
+
             <h3 className="about_txt2  ">Our Vision</h3>
+
             <h3 className="line  mx-auto"></h3>
           </div>
           <div className="pic_overlay ">
             <img
               className="  image2 "
               src="https://finacia.radiantthemes.com/wp-content/uploads/2018/09/about-us-version-one-expert-two.png"
+
               alt=""/>
+
             <div className="pic_hover"></div>
           </div>
 
           <div className=" mx-auto mt-5">
+
             <h5 className="txt_min">Business Analytic Graph</h5>
             <p className="about_pera ">
+
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac
               commodo libero finibus eleifend nibh.
             </p>
@@ -116,6 +132,7 @@ function AboutUs() {
       {/* -----------------------why choose arham section--------------------------------- */}
 
       <div className=" text-center why_choose_arham   text-center  ">
+
         <div className="">
           <h2 className="about_txt2">Why Choose Arham? </h2>
           <h3 className="line mx-auto "></h3>
@@ -130,11 +147,14 @@ function AboutUs() {
           {/* -------------------------------- */}
           <div className="about-item row col-12 text-start cover  item1  m_top">
             <div className="col-1 mt-2">
+
               <span className="about_icons">
                 <BsCashCoin />
               </span>
             </div>
+
             <div className="col-10  ms-5 shadow rounded ">
+
               <h6>No HiddenCost</h6>
               <p className="about_pera">
                 Our APIs come with absolutely no hidden cost.
@@ -142,13 +162,17 @@ function AboutUs() {
             </div>
           </div>
           {/* -------------------------------- */}
+
           <div className="about-item row col-12   text-start  cover m_top">
             <div className="col-1 mt-2">
+
               <span className="about_icons">
                 <GiReceiveMoney />
               </span>
             </div>
+
             <div className="col-10 col-md-10 ms-5 shadow rounded">
+
               <h6>Own Strategies</h6>
               <p className="about_pera">
                 Helpful for traders looking for programming their own strategies{" "}
@@ -156,13 +180,17 @@ function AboutUs() {
             </div>
           </div>
           {/* -------------------------------------- */}
+
           <div className="about-item row col-12  text-start cover m_top">
             <div className="col-1 mt-2">
+
               <span className="about_icons">
                 <SiAmazonapigateway />
               </span>
             </div>
+
             <div className="col-10 col-md-10 ms-5 shadow rounded">
+
               <h6>Flexible APIs</h6>
               <p className="about_pera">
                 Compatible with multiple languages suited best to your comfort
@@ -170,46 +198,60 @@ function AboutUs() {
             </div>
           </div>
           {/* ----------------------------------------- */}
+
           {/* <div className="about-item row col-12  text-start  cover mb-3 mt-2">
             <div className="col-1 mt-2">
+
               <span className="about_icons">
                 <GiExecutionerHood />
               </span>
             </div>
+
             <div className="col-10 col-md-10 ms-5 shadow rounded">
+
               <h6>Instant Execution</h6>
               <p className="about_pera">
                 Now get your orders executed with few lines of codes
               </p>
             </div>
+
           </div> */}
           {/* -------------------------------------------------- */}
           {/* <div className="about-item row col-12 text-start  cover mb-3 mt-2">
             <div className="col-1 mt-2">
+
               <span className="about_icons">
                 <SiPowerbi />
               </span>
             </div>
+
             <div className="col-10 col-md-10  ms-5 shadow rounded">
+
               <h6>Powerful Trading Platforms</h6>
               <p className="about_pera">
                 Our customizable trading account and trade from your desktop.
               </p>
             </div>
+
           </div> */}
           {/* ---------------------------------------------------------- */}
           {/* <div className="about-item row col-12   text-start cover mb-3 mt-2">
             <div className="col-1 mt-2">
+
+
               <span className="about_icons">
                 <FaStairs />
               </span>
             </div>
+
             <div className="col-10 col-md-10  ms-5 shadow rounded">
+
               <h6>Fast Trade execution</h6>
               <p className="about_pera">
                 Fastest trade execution across all segments
               </p>
             </div>
+
           </div> */}
           {/* ------------------------------------------------------- */}
         </div>
@@ -247,6 +289,7 @@ function AboutUs() {
         </div>
         </div>
 
+
       </div>
 
       {/* ---------------------------misssion vision ---------------------------- */}
@@ -274,7 +317,9 @@ function AboutUs() {
         </div> */}
 
       {/* -------------------------meet our team ----------------------------- */}
+
       <div className=" container-fluid meet_our_team p_top ">
+
         <div>
           <h1 className="about_txt2 text-center ">Meet Our Team</h1>
           <h3 className="line mx-auto"></h3>
@@ -283,7 +328,9 @@ function AboutUs() {
           <div className="col-12 col-sm-6 col-lg-4   meet_team_hover">
             <div className="container_img mx-auto">
               <img
+
                 src={img1}
+
                 height="auto"
                 width="100%"
                 className="our_team_img pb-5 image  "
@@ -302,7 +349,9 @@ function AboutUs() {
           <div className="col-12 col-sm-6 col-lg-4   meet_team_hover">
             <div className="container_img mx-auto">
               <img
+
                 src={img2}
+
                 height="auto"
                 width="100%"
                 className="our_team_img pb-5 image "
@@ -322,11 +371,13 @@ function AboutUs() {
           <div className="col-12 col-sm-6 col-lg-4   rounded-5 meet_team_hover">
             <div className="container_img mx-auto rounded-5">
               <img
+
                 src={img3}
                 height="auto"
                 width="100%"
                 className="our_team_img pb-5 image "
                 alt=""/>
+
               <div className="overlay">
                 <h4 className="text-4  h-txt-1">MR. RUSHITMEHTA</h4>
                 <h6 className="h-txt-2">Co-founder and Director</h6>

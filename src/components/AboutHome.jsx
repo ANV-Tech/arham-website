@@ -7,7 +7,13 @@ function AboutHome() {
         <div className="container">
           <div className="about-inner">
             <div className="about-item row">
-              <div className=" col-lg-6 about-left-item d-flex">
+
+              <div
+                className=" col-lg-6 about-left-item d-flex"
+                data-aos="fade-up"
+                data-aos-duration="4000"
+              >
+
                 <div className="about-item-btn">
                   <div className="item-left">10</div>
                   <div className="item-right">Year Of Experiance</div>

@@ -82,13 +82,13 @@ only screen and (max-width: 767px) {
     display: flex;
     align-items: center;
     margin-bottom: 0;
-    padding: 0;
 }
 
 .main-navigation ul li {
     display: flex;
     position: relative;
-    padding: 34px 13px;
+
+    padding: 34px 16px;
 }
 
 
@@ -106,7 +106,9 @@ only screen and (max-width: 767px) {
     display: flex;
     align-self: stretch;
     align-items: center;
-    color: #e1e1e1!important;
+
+    color: #e1e1e1 !important;
+
     font-weight: 600;
     font-family: 'Josefin Sans', sans-serif;
     text-transform: uppercase;
@@ -147,7 +149,9 @@ only screen and (max-width: 767px) {
     display: block;
     font-size: 12px;
     background: #ffffff;
-    color: #111010!important;
+
+    color: #111010 !important;
+
     padding: 4px 0;
     letter-spacing: 0.5px;
     position: relative;
@@ -292,12 +296,12 @@ only screen and (max-width: 767px) {
 }
 
 .header__bottom {
-    background: transparent;
     top: 0;
     z-index: 22;
     width: 100%;
     position: absolute;
-    background: #333333;
+
+    background: transparent;
 }
 
 
@@ -306,8 +310,9 @@ only screen and (max-width: 767px) {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: black;
-    padding: 10px;
+
+    background: linear-gradient(45deg, #334C44, #040000);
+
     transition: background-color 0.3s;
     z-index: 100;
     transition: all 0.5s ease-in-out;
